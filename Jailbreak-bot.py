@@ -109,6 +109,9 @@ def iponALL(update,context):
 What is the version of your device?
 ➖➖➖➖➖➖➖➖➖➖"""
     Keyboard = [
+        [InlineKeyboardButton("ios 14.7", callback_data=str(crn))],
+        InlineKeyboardButton("ios 14.6", callback_data=str(crn)),
+        InlineKeyboardButton("ios 14.5.1",callback_data=str(crn))],
         [InlineKeyboardButton("ios 14.5", callback_data=str(crn)),
          InlineKeyboardButton("ios 14.4.2", callback_data=str(crn)),
          InlineKeyboardButton("ios 14.4.1", callback_data=str(crn))],
@@ -170,6 +173,9 @@ def iponXS(update,context):
 What is the version of your device?
 ➖➖➖➖➖➖➖➖➖➖"""
     Keyboard = [
+        [InlineKeyboardButton("ios 14.7", callback_data=str(noj)),
+         InlineKeyboardButton("ios 14.6", callback_data=str(noj)),
+         InlineKeyboardButton("ios 14.5.1",callback_data=str(noj))],
         [InlineKeyboardButton("ios 14.5", callback_data=str(noj)),
          InlineKeyboardButton("ios 14.4.2", callback_data=str(noj))],
         [InlineKeyboardButton("ios 14.4.1", callback_data=str(noj)),
@@ -207,6 +213,9 @@ def ipon11(update,context):
 What is the version of your device?
 ➖➖➖➖➖➖➖➖➖➖"""
     Keyboard = [
+        [InlineKeyboardButton("ios 14.7", callback_data=str(noj)),
+         InlineKeyboardButton("ios 14.6", callback_data=str(noj)),
+         InlineKeyboardButton("ios 14.5.1", callback_data=str(noj))],
         [InlineKeyboardButton("ios 14.5", callback_data=str(noj)),
          InlineKeyboardButton("ios 14.4.2", callback_data=str(noj))],
         [InlineKeyboardButton("ios 14.4.1", callback_data=str(noj)),
@@ -244,6 +253,9 @@ def ipon12(update,context: CallbackContext) -> None:
 What is the version of your device?
 ➖➖➖➖➖➖➖➖➖➖"""
     Keyboard = [
+         [InlineKeyboardButton("ios 14.7", callback_data=str(noj)),
+         InlineKeyboardButton("ios 14.6", callback_data=str(noj)),
+         InlineKeyboardButton("ios 14.5.1", callback_data=str(noj))],
         [InlineKeyboardButton("ios 14.5", callback_data=str(noj)),
          InlineKeyboardButton("ios 14.4.2", callback_data=str(noj))],
         [InlineKeyboardButton("ios 14.4.1", callback_data=str(noj)),
@@ -263,6 +275,8 @@ def ipon6(update,context):
 What is the version of your device?
 ➖➖➖➖➖➖➖➖➖➖"""
     Keyboard = [
+        [InlineKeyboardButton("ios 12.5.4", callback_data=str(crUN)),
+         InlineKeyboardButton("ios 12.5.3", callback_data=str(crUN))],
         [InlineKeyboardButton("ios 12.5.2", callback_data=str(crUN)),
          InlineKeyboardButton("ios 12.5.1", callback_data=str(crUN))],
         [InlineKeyboardButton("ios 12.5", callback_data=str(crUN))],
@@ -308,7 +322,7 @@ Choose your device to see if it has a jailbreak or not
          InlineKeyboardButton("iphone XR", callback_data=str(ipXS))],
         [InlineKeyboardButton("iphone XS max", callback_data=str(ipXS)),
          InlineKeyboardButton("iphone XS", callback_data=str(ipXS))],
-        [InlineKeyboardButton("iphone X", callback_data=str(iponALL)),
+        [InlineKeyboardButton("iphone X", callback_data=str(Allios)),
          InlineKeyboardButton("iphone SE", callback_data=str(Allios))],
         [InlineKeyboardButton("iphone 8 plus", callback_data=str(Allios)),
          InlineKeyboardButton("iphone 8", callback_data=str(Allios))],
