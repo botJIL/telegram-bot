@@ -109,6 +109,7 @@ def iponALL(update,context):
 What is the version of your device?
 ➖➖➖➖➖➖➖➖➖➖"""
     Keyboard = [
+        [InlineKeyboardButton("ios 14.8", callback_data=str(noj))],
         [InlineKeyboardButton("ios 14.7", callback_data=str(crn))],
         InlineKeyboardButton("ios 14.6", callback_data=str(crn)),
         InlineKeyboardButton("ios 14.5.1",callback_data=str(crn))],
@@ -173,6 +174,7 @@ def iponXS(update,context):
 What is the version of your device?
 ➖➖➖➖➖➖➖➖➖➖"""
     Keyboard = [
+        [InlineKeyboardButton("ios 14.8", callback_data=str(noj))],
         [InlineKeyboardButton("ios 14.7", callback_data=str(noj)),
          InlineKeyboardButton("ios 14.6", callback_data=str(noj)),
          InlineKeyboardButton("ios 14.5.1",callback_data=str(noj))],
@@ -213,6 +215,7 @@ def ipon11(update,context):
 What is the version of your device?
 ➖➖➖➖➖➖➖➖➖➖"""
     Keyboard = [
+        [InlineKeyboardButton("ios 14.8", callback_data=str(noj))],
         [InlineKeyboardButton("ios 14.7", callback_data=str(noj)),
          InlineKeyboardButton("ios 14.6", callback_data=str(noj)),
          InlineKeyboardButton("ios 14.5.1", callback_data=str(noj))],
